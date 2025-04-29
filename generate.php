@@ -42,7 +42,7 @@ curl_setopt($ch1, CURLOPT_POST, true);
 curl_setopt($ch1, CURLOPT_POSTFIELDS, json_encode($textPayload));
 curl_setopt($ch1, CURLOPT_HTTPHEADER, [
     "Content-Type: application/json",
-    "Authorization: Bearer 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"
+    "Authorization: Bearer your_openrouter_API"
 ]);
 $textResponse = curl_exec($ch1);
 $httpcode1 = curl_getinfo($ch1, CURLINFO_HTTP_CODE);
