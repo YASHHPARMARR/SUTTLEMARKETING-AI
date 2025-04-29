@@ -1,0 +1,8 @@
+database connection- db.php
+main page - homepage.php
+how - how.php
+main dashboard - index.php
+signup page - signup.php
+login page - login.php
+setting page - setting.php
+main code which actual generate using API - generate.php
